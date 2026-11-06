@@ -6,7 +6,7 @@ Analysis code for high-frequency calcium imaging and juxtacellular/whole-cell re
 
 **Associated paper:** [TODO: paper title, authors, and DOI/link]
 
-**Dataset:** [TODO: public archive URL/DOI and dataset version]
+**Dataset:** [https://doi.org/10.5281/zenodo.24020846](https://doi.org/10.5281/zenodo.24020846)
 
 The experimental datasets are distributed separately. Download them and restore the directory layout below before running an analysis. Dataset links and the mapping from scripts to paper figures are still being prepared.
 
