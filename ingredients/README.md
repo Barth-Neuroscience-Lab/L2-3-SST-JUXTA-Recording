@@ -24,4 +24,4 @@ With `RATATOUILLE_DATA_PATH` set, substitute that directory for `ingredients/`.
 - Include `TIMELINE_*.csv`, Suite2p `Fall.mat` exports, and the corresponding MES-derived `INFO_*.xlsx` files. The `default_two_photon_mes_parser` recipe uses these together to align frames with the timeline.
 - Include matching behavioral CSVs and saved whisker/pupil/ROI measurements used by the analyses. Keep the archive's names and relative paths so users can reuse the measurements without redoing interactive extraction.
 - Include `HighFreqImaging_Combine_ROIs_info/<mouse_id>/` with staining CSVs and `*_crop.png` previews for posthoc staining assignment and state-dependent analyses.
-- Raw MES files, TIFFs, videos, Suite2p `ops.npy`, and other raw-cohort directories are needed if offering a preprocessing rerun. The current preprocessing script refers to `HighFreqImaging_202608` and `HighFreqImaging_zstack`; its alternate `main()` refers to `HighFreqImaging_202606`. These are distinct from the combined processed cohort.
+- Raw MES files, TIFFs, videos, Suite2p `ops.npy`.
